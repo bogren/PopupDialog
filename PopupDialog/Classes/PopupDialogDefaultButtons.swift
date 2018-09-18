@@ -45,7 +45,7 @@ public final class CancelButton: PopupDialogButton {
 // MARK: destructive button
 
 /// Represents a destructive button for the popup dialog
-public final class DestructiveButton: PopupDialogButton {
+internal final class DestructiveButton: PopupDialogButton {
 
     override public func setupView() {
         defaultTitleColor = UIColor.red
